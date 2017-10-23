@@ -1,13 +1,8 @@
-package com.ag;
+package com.helano.cga;
 
-import java.util.Arrays;
-import java.util.Calendar;
 import java.util.Random;
 
-
-
 public class Population {
-
 	Integer[][] cromossomos;
     int tamanhoCromossomo, tamanhoPop;
     int limSup, limInf;
@@ -63,6 +58,7 @@ public class Population {
 
     return tamanhoPop;
     }
+
 
 
 }
